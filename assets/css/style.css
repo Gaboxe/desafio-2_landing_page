@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*======================Cabecera============================*/
+
+.header {
+    height: 3em;
+    padding: 5em;
+    font-size: 2em;
+    color: white;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../imgs/planta_fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400; /*se hace más ancho el titulo h1*/
+}
+
+/*=======================Productos==========================*/
+
+.products {
+    width: 55%;
+    margin: auto;
+}
+
+.products td{
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+/*==================Pie de pagina===========================*/
+
+.footer {
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 2em;
+
+    background-image: url(../imgs/fondo_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
